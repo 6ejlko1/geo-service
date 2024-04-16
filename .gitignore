@@ -1,0 +1,6 @@
+tmp/
+.idea/
+out/
+
+*.iml
+.gitattributes

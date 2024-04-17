@@ -1,6 +1,7 @@
 tmp/
 .idea/
 out/
+target/
 
 *.iml
 .gitattributes

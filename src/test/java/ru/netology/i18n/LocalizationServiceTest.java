@@ -1,9 +1,12 @@
+package ru.netology.i18n;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.netology.entity.Country;
-import ru.netology.i18n.LocalizationServiceImpl;
 
-public class LocalizationServiceTest {
+import static org.junit.jupiter.api.Assertions.*;
+
+class LocalizationServiceTest {
 
     @Test
     public void testsCheckReturnedText() {
@@ -13,4 +16,3 @@ public class LocalizationServiceTest {
         Assertions.assertEquals(expected, localization);
     }
 }
-
